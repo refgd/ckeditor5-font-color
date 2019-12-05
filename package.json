@@ -1,6 +1,6 @@
 {
   "name": "@solomoto/ckeditor5-font-color",
-  "version": "16.0.0",
+  "version": "16.0.1",
   "description": "Font color feature for CKEditor 5 with color picker.",
   "keywords": [
     "ckeditor",
@@ -30,10 +30,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": "https://github.com/pshurygin/ckeditor5-font-color/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-font.git"
+    "url": "https://github.com/pshurygin/ckeditor5-font-color.git"
   },
   "files": [
     "lang",
