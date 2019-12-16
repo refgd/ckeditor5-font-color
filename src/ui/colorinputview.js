@@ -59,11 +59,11 @@ export default class ColorInputView extends View {
 		});
 
 		this.on('change:parent', (evt, name, value) => {
-			this.colorPicker = new jscolor(this.element, {
-				...JsColorOptions,
+			let options = Object.assign({}, JsColorOptions, {
 				closeText: this.closeButtonLabel,
 				container: value
 			});
+			this.colorPicker = new jscolor(this.element, options);
 			this.setInputValue(this.value);
 		});
 	}
